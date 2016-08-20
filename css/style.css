@@ -1,0 +1,109 @@
+* {
+	margin: 0px;
+}
+
+div{
+	padding-top: 50px !important;
+}
+
+/*
+	1) Parent-Child:
+		Between sect/subSection and html/body, we originally 
+		declared .sect and .subSection to have height of 100%,
+		but the paret (html/body) did not have a height so nothing
+		showed up on the html page. Have to set up parent if using percentage
+		rather than number of pixels.
+ */
+html, body{
+	height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin-bottom: 20px;
+}
+
+/*Making skeleton of Page
+1) We know we need a nav and a top div
+2) All images are the same styling 100% tall and 100% wide (.sect)
+	a) Thus we can create one class that can style all of those
+		i) Make classes for this instead of using the tags/elements
+	b) By default img will be 100% width because it's a div so it's unneeded to put it explicitly.
+3) Subsections similar to images
+	a) Difference is only 50% wide and 100% wide
+*/
+
+nav {
+	position: fixed;
+	width: 100%;
+	height: 50px;
+	background-color: rgba(179,27,27,.65);
+	z-index: 99;
+	text-align: center;
+}
+
+nav ul li{
+	float: left;
+	display: inline-block;
+	list-style: none;
+}
+
+nav a {
+	text-decoration: none;
+	color: rgb(202,210,197);
+	margin-left: 50px;
+	line-height: 50px !important;
+	cursor: pointer;
+	font-family: sans-serif;
+}
+
+.sect {
+	color: rgb(202,210,197);
+	height: 100%;
+	/*background-color: rgb(53,79,82); <-- not actually needed
+	whole image covers the div*/
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.subSection {
+	height: 60%;
+	background-color: rgb(202,210,197);
+}
+
+/*CT: http://cdn.pcwallart.com/images/golden-gate-bridge-silhouette-wallpaper-2.jpg*/
+.sectA {
+	background-image: url("../images/GGBridge.jpg");
+}
+
+/*CT: http://kabegami.org/wp-content/uploads/2016/07/0mmRo9a1.jpg*/
+.sectB {
+	background-image: url("../images/origami.jpg");
+}
+
+/*CT:https://i.ytimg.com/vi/ugQXCZm2weE/maxresdefault.jpg*/
+.sectC {
+	background-image: url("../images/glassbeach.jpg");
+}
+
+
+/* Style the links inside the list items */
+ul.topnav a {
+  display: inline-block;
+  text-align: center;
+  padding: 0px 0px;
+  text-decoration: none;
+  transition: 1.3s;
+}
+
+/* Change background color of links on hover */
+ul.topnav a:hover {
+	background-color: #878472;
+	color: black;
+}
+
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+ul.topnav li.icon {
+	display: none;
+}
+
