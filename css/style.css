@@ -36,11 +36,13 @@ nav {
 	background-color: rgba(179,27,27,.65);
 	display: inline-block;
 	height: 50px;
+/*	overflow: hidden;*/
 	position: fixed;
 	text-align: center;
 	width: 100%;
 	z-index: 99;
 }
+
 
 nav ul {
 	/*Remove any unnecessary padding*/
@@ -54,13 +56,14 @@ nav ul li{
 	list-style: none;
 }
 
-nav ul li a {
+nav a {
 	text-decoration: none;
 	color: rgb(202,210,197);
 	margin-left: 50px;
 	line-height: 50px !important;
 	cursor: pointer;
 	font-family: sans-serif;
+
 }
 
 .sect {
@@ -93,24 +96,16 @@ nav ul li a {
 	background-image: url("../images/glass.jpg");
 }
 
+@media (max-width: 768px){
+	nav ul{
+		width: 100%;
+		padding: 0px;
+		display: none;
+	}
 
-/* Style the links inside the list items */
-/*ul.topnav a {
-  display: inline-block;
-  text-align: center;
-  padding: 0px 0px;
-  text-decoration: none;
-  transition: 1.3s;
-}*/
+	nav ul li{
+		width: 100%;
+	}
 
-/* Change background color of links on hover */
-/*ul.topnav a:hover {
-	background-color: #878472;
-	color: black;
-}*/
-
-/* Hide the list item that contains the link that should open and close the topnav on small screens */
-/*ul.topnav li.icon {
-	display: none;
-}*/
+}
 
