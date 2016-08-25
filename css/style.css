@@ -14,6 +14,8 @@ div{
 		showed up on the html page. Have to set up parent if using percentage
 		rather than number of pixels.
  */
+
+
 html, body{
 	height: 100%;
 }
@@ -31,6 +33,14 @@ h1, h2, h3, h4, h5, h6, p {
 3) Subsections similar to images
 	a) Difference is only 50% wide and 100% wide
 */
+
+.logo{
+	margin: 0px 0px 0px 50px;
+	padding: 0px;
+	float: left;
+	color: rgb(202,210,197);
+	line-height: 50px;
+}
 
 nav {
 	background-color: rgba(179,27,27,.65);
@@ -96,16 +106,31 @@ nav a {
 	background-image: url("../images/glass.jpg");
 }
 
-@media (max-width: 768px){
-	nav ul{
+@media screen and (max-width: 768px){
+	header nav{
+		float: none;
+		clear: left;
 		width: 100%;
-		padding: 0px;
-/*		display: none;*/
 	}
 
-	nav ul li{
-		width: 100%;
+	header nav ul{
+		margin: 0px;
+		padding: 0px;
+		display: none;
 	}
+
+/*	h1.logo{
+		margin: auto;
+		float: none;
+	}
+*/
+/*	header nav ul li{
+		width: 18%;
+	}*/
+
+}
+
+@media screen and (max-width: 480px){
 
 }
 
