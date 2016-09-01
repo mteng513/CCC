@@ -85,6 +85,7 @@ div img
 
 .sect {
 	color: rgb(255,255,255);
+  text-shadow: 0 0 2px #000000;
 	height: 100%;
 	/*background-color: rgb(53,79,82); <-- not actually needed
 	whole image covers the div*/
@@ -99,7 +100,7 @@ div img
 	margin-top: 200px;
 	margin-bottom: 200px;
 	font-size: 7em;
-    text-shadow: 0 0 6px #FFFFFF;
+  text-shadow: 0 0 6px #FFFFFF;
 }
 
 #CallToAction {
