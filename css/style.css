@@ -98,15 +98,16 @@ div img
 
 #CCCmast {
 	text-align: center;
-	color: rgb(179,34,37);
-	margin-top: 200px;
-	margin-bottom: 180px;
+	color: #fff;
+	/*color: rgb(179,34,37);*/
+	margin-top: 10%;
+	margin-bottom: 2%;
 	font-size: 7em;
-  	text-shadow: 0 0 1px #FFFFFF;
+	/* text-shadow: 0 0 1px #FFFFFF;*/
 }
 
 #CallToAction {
-	font-size: 3em;
+	font-size: 2em;
 }
 
 .sect p {
@@ -126,12 +127,12 @@ div img
 
 /*CT: https://upload.wikimedia.org/wikipedia/commons/4/40/Cornell_University_arts_quad.JPG*/
 .sectA {
-	background-image: url("../images/artsquad.jpg");
+	background-image: url("../images/cornell2.jpg");
 }
 
 /*CT: http://kabegami.org/wp-content/uploads/2016/07/0mmRo9a1.jpg*/
 .sectB {
-	background-image: url("../images/cornell2.jpg");
+	background-image: url("../images/artsquad.jpg");
 }
 
 /*CT:https://i.ytimg.com/vi/XuAAooA56V4/maxresdefault.jpg*/
@@ -140,6 +141,10 @@ div img
 }
 
 @media screen and (max-width: 768px){
+	nav{
+		display: none;
+	}
+
 	header nav{
 		float: none;
 		clear: left;
