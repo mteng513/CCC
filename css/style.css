@@ -131,12 +131,12 @@ div img
 
 /*CT: http://kabegami.org/wp-content/uploads/2016/07/0mmRo9a1.jpg*/
 .sectB {
-	background-image: url("../images/origami.jpg");
+	background-image: url("../images/cornell2.jpg");
 }
 
 /*CT:https://i.ytimg.com/vi/XuAAooA56V4/maxresdefault.jpg*/
 .sectC {
-	background-image: url("../images/glass.jpg");
+	background-image: url("../images/hoplaza.jpeg");
 }
 
 @media screen and (max-width: 768px){
