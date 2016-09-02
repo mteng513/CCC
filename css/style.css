@@ -19,11 +19,19 @@ div{
 
 html, body{
 	height: 100%;
+	font-family: Cabin, sans-serif;
+}
+h1 {
+	margin-bottom: 20px;
+	margin-left: 5%;
+	margin-right: 5%;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h2, h3, h4, h5, h6, p {
 	margin-bottom: 20px;
+	padding: 0px;
 }
+
 
 /*Making skeleton of Page
 1) We know we need a nav and a top div
@@ -99,15 +107,17 @@ div img
 	color: #fff;
 	margin-top: 10%;
 	margin-bottom: 2%;
-	font-size: 7em;
+	font-size: 500%;
+	padding: 0px;
 }
 
 #CallToAction {
 	font-size: 2em;
+	text-align: center;
 }
 
 .sect p {
-	text-align: center;
+	text-align: left;
 	margin-left: 5%;
 	margin-right: 5%;
 }
@@ -158,8 +168,12 @@ div img
 	}
 
 	#CallToAction{
-		width: 25%%;
-		display: block;
+		font-size: 120%;
+	}
+
+	#CCCmast{
+		font-size: 275%;
+
 	}
 
 	.sect{
