@@ -4,7 +4,11 @@
 
 div{
 	padding-top: 50px !important;
-	overflow: scroll;
+	overflow-y: scroll;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
 }
 
 /*
