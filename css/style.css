@@ -3,7 +3,7 @@
 }
 
 div{
-	padding-top: 40px !important;
+	padding-top: 50px !important;
 	overflow: scroll;
 }
 
@@ -43,6 +43,7 @@ h1, h2, h3, h4, h5, h6, p {
 	line-height: 50px;
 }
 
+/*Nav Bar Menu*/
 nav {
 	background-color: rgba(142, 22, 22, .8);
 	display: inline-block;
@@ -62,7 +63,6 @@ nav ul {
 }
 
 nav ul li{
-	/*float: left;*/
 	display: inline-block;
 	list-style: none;
 }
@@ -87,10 +87,7 @@ div img
 
 .sect {
 	color: rgb(255,255,255);
-  	/*text-shadow: 0 0 2px #000000;*/
 	height: 100%;
-	/*background-color: rgb(53,79,82); <-- not actually needed
-	whole image covers the div*/
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -100,11 +97,9 @@ div img
 #CCCmast {
 	text-align: center;
 	color: #fff;
-	/*color: rgb(179,34,37);*/
 	margin-top: 10%;
 	margin-bottom: 2%;
 	font-size: 7em;
-	/* text-shadow: 0 0 1px #FFFFFF;*/
 }
 
 #CallToAction {
@@ -126,6 +121,9 @@ div img
 	background-color: rgb(202,210,197);
 }
 
+#contactSect {
+	height: 40%;
+}
 /*CT: https://upload.wikimedia.org/wikipedia/commons/4/40/Cornell_University_arts_quad.JPG*/
 .sectA {
 	background-image: url("../images/cornell2.jpg");
@@ -142,6 +140,7 @@ div img
 }
 
 @media screen and (max-width: 768px){
+	
 	nav{
 		display: none;
 	}
