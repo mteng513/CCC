@@ -172,11 +172,11 @@ div img
 	}
 
 	#CallToAction{
-		font-size: 120%;
+		font-size: 130%;
 	}
 
 	#CCCmast{
-		font-size: 275%;
+		font-size: 312%;
 
 	}
 
@@ -193,6 +193,13 @@ div img
 }
 
 @media screen and (max-width: 480px){
+	#CallToAction{
+		font-size: 120%;
+	}
 
+	#CCCmast{
+		font-size: 275%;
+
+	}
 }
 
