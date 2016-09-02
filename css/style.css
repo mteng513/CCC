@@ -140,17 +140,17 @@ div img
 }
 /*CT: https://upload.wikimedia.org/wikipedia/commons/4/40/Cornell_University_arts_quad.JPG*/
 .sectA {
-	background-image: url("../images/cornell2.jpg");
+	background: url("../images/cornell2.jpg") no-repeat center center fixed;
 }
 
 /*CT: http://kabegami.org/wp-content/uploads/2016/07/0mmRo9a1.jpg*/
 .sectB {
-	background-image: url("../images/artsquad.jpg");
+	background: url("../images/artsquad.jpg") no-repeat center center fixed;
 }
 
 /*CT:https://i.ytimg.com/vi/XuAAooA56V4/maxresdefault.jpg*/
 .sectC {
-	background-image: url("../images/hoplaza.jpeg");
+	background: url("../images/hoplaza.jpeg") no-repeat center center fixed;
 }
 
 @media screen and (max-width: 768px){
