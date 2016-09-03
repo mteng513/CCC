@@ -51,6 +51,7 @@
 	2)Alternating subsection correlate to text section while main sections are the images.
 -->
 <div id = "homeSect" class = "sect sectA"> 
+	<img src="images/Logo3.png" class="CCCLogo" alt="CCC Logo" align="midde"/>
 	<h1 id="CCCmast">Cornell Consulting Club</h1>
 	<p id="CallToAction">
 		Education &#8251 Hands-on experience &#8251 Networking
@@ -58,15 +59,62 @@
 </div>
 
 <div id = "aboutSect" class = "subSection"> 
-	<img src="images/Logo3.png" alt = "CCC Logo" align="middle"/>
 	<p>CCC is the leading and oldest undergraduate consulting organization at Cornell. For our clients we offer consulting services, solving business problems in functional areas such as strategy, management, business development, operations, marketing, finance and technology. For our members, we offer a truly unique hands-on experience where our consultants get to work in teams and solve challenging business problems for clients in industries including high-tech, financial services, venture capital, oil & gas, investment banking, non-profit, education, restaurant, government and much more. Our past engagements have included big clients such as a top-10 venture capital firm, a top-10 business school, and an international European asset manager, as well as smaller clients such as several local startups and a regional museum.</p>
 </div>
 
 
-<div id = "newsSect" class = "sect sectB"> 
-	<h1>NEWS</h1>
-	<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</p>
-</div>
+	<!--Carousel-->
+    <div id = "carousel" class="carousel slide" data-ride = "carousel"> 
+
+      <ol class = "carousel-indicators">
+        <li data-target= "#carousel" data-slide-to = "0" class = "active"></li>
+        <li data-target= "#carousel" data-slide-to = "1" ></li>
+        <li data-target= "#carousel" data-slide-to = "2" ></li>
+      </ol>
+      
+      <!--Wrapper for Slides-->
+      <div class = "carousel-inner">
+          <div class = "item active">
+              <a href= "#"><img src = "http://cornellconsultingclub.com/ccc/images/Cornerstone%20Case%20Competition.png"></a>
+                <div class = "container-fluid">
+	                <div class = "carousel-caption">
+	                    <h1>Cornerstone Research 2015 Case Competition</h1>
+	                    <p>Join us and the team from Cornerstone Research for a case competition, information session and networking session, with free food and drinks!</p>
+	                </div>
+	              </div>
+          </div>
+
+          <div class = "item">
+              <a href= "#"><img src = "http://cornellconsultingclub.com/ccc/images/projects.jpg"></a>
+                <div class = "container-fluid">
+	                <div class = "carousel-caption">
+	                    <h1>Service Offerings</h1>
+	                    <p>Our services have traditionally concentrated in sales and marketing strategy, organizational strategy and business unit strategy to companies in different industries including private equity, energy and gas, high technology and financial services.</p>
+	                </div>
+	              </div>
+          </div>
+
+          <div class = "item">
+              <a href= "#"><img src = "http://cornellconsultingclub.com/ccc/images/bcg.jpg"></a>
+                <div class = "container-fluid">
+	                <div class = "carousel-caption">
+	                    <h1>Office Visits</h1>
+	                    <p>CCC visits top consulting firms in NYC at the beginning of every semester, right before internship opportunities or full-time recruiting.</p>
+	                </div>
+	              </div>
+          </div>
+      </div>
+
+    <!--Controls-->
+    <a class = "left carousel-control" href = "#carousel" data-slide="prev">
+      <span class = "glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class = "right carousel-control" href = "#carousel" data-slide="next">
+      <span class = "glyphicon glyphicon-chevron-right"></span>
+    </a>
+  </div>
+	<!--<h1>NEWS</h1>
+	<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</p>-->
 
 <div id = "teamSect" class = "subSection"> 
 	<h1>TEAM</h1>
@@ -111,6 +159,7 @@
 
 <script src = "js/jquery-3.1.0.min.js" type = "text/javascript"></script>
 <script src = "js/scripts.js" type = "text/javascript"></script>
+<script src="js/bootstrap.min.js"></script>
 
 </body>
 </html>

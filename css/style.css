@@ -3,7 +3,6 @@
 }
 
 div{
-	padding-top: 50px !important;
 	overflow-y: scroll;
 }
 
@@ -107,11 +106,10 @@ div img
 }
 
 #CCCmast {
+	font-size: 312%;
 	text-align: center;
 	color: #fff;
-	margin-top: 10%;
 	margin-bottom: 2%;
-	font-size: 500%;
 	padding: 0px;
 }
 
@@ -146,11 +144,21 @@ div img
 /*CT: http://kabegami.org/wp-content/uploads/2016/07/0mmRo9a1.jpg*/
 .sectB {
 	background: url("../images/artsquad.jpg") no-repeat center center fixed;
+	color: rgb(0, 0, 0);
 }
 
 /*CT:https://i.ytimg.com/vi/XuAAooA56V4/maxresdefault.jpg*/
 .sectC {
 	background: url("../images/hoplaza.jpeg") no-repeat center center fixed;
+}
+
+.CCCLogo {
+	padding-top: 100px;
+}
+
+.carousel-caption {
+    top: 0;
+    bottom: auto;
 }
 
 @media screen and (max-width: 768px){
@@ -173,11 +181,6 @@ div img
 
 	#CallToAction{
 		font-size: 130%;
-	}
-
-	#CCCmast{
-		font-size: 312%;
-
 	}
 
 	.sect{
