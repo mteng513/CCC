@@ -22,7 +22,7 @@ div{
 
 html, body{
 	height: 100%;
-	font-family: Cabin, sans-serif;
+	font-family: Khula, sans-serif;
 }
 h1 {
 	margin-bottom: 20px;
@@ -84,7 +84,7 @@ nav a {
 	margin-left: 50px;
 	line-height: 50px !important;
 	cursor: pointer;
-	font-family: sans-serif;
+	font-family: Khula, sans-serif;
 
 }
 
