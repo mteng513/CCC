@@ -1,6 +1,6 @@
 $('document').ready(function(e){
 	//testing 
-	console.log('Hi');
+	// console.log('Hi');
 
 	$("nav a").click(function(e){
 		//var btnName = $(this).attr("href");
