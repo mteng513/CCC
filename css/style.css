@@ -38,6 +38,11 @@ h2, h3, h4, h5, h6, p {
 	padding: 0px;
 }
 
+hr{
+	margin: 0 7.5% 0 7.5%;	
+	width: 85%;
+}
+
 
 /*Making skeleton of Page
 1) We know we need a nav and a top div
@@ -130,6 +135,8 @@ div img
 	margin-left: 5%;
 	margin-right: 5%;
 }
+
+
 
 .subSection {
 	height: 70%;
