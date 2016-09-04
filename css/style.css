@@ -24,10 +24,9 @@ html, body{
 	height: 100%;
 	font-family: Khula, sans-serif;
 }
+
 h1 {
-	margin-bottom: 20px;
-	margin-left: 5%;
-	margin-right: 5%;
+	margin: 50px 5% 30px 5%;
 }
 
 h2, h3, h4, h5, h6, p {
@@ -213,5 +212,9 @@ width: 100%;
 		font-size: 275%;
 
 	}
+}
+
+@media screen and (min-width: 769px){
+
 }
 
