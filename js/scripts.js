@@ -1,7 +1,8 @@
 $('document').ready(function(e){
-	//testing 
-	// console.log('Hi');
+	setupScrolling();
+});
 
+function setupScrolling() {
 	$("nav a").click(function(e){
 		//var btnName = $(this).attr("href");
 		//console.log('Button Clicked ' + e.currentTarget.id);
@@ -12,5 +13,4 @@ $('document').ready(function(e){
 			scrollTop: $("#"+sectionID).offset().top}, 1000);
 
 	});
-
-});
+}
