@@ -1,35 +1,30 @@
 <!DOCTYPE html>
 <html>
-<head lang = "en">
-	<!-- Set Viewport to size of device -->
-	<meta name = "viewport" content = "width=device-width">
-
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-	
-
-	<title>Scrolling</title>
-
-	<!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet"> 
-	<link rel="stylesheet" href = "css/style.css">
-	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Khula">
-	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-	<link href="css/bootstrap-social.css" rel="stylesheet">
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-</head>
-<body>
-
-<header>
-		<nav>
+	<head lang = "en">
+		<!-- Set Viewport to size of device -->
+		<meta name = "viewport" content = "width=device-width">
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		
+		<title>Scrolling</title>
+		<!-- Bootstrap -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href = "css/style.css">
+		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Khula">
+		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+		<link href="css/bootstrap-social.css" rel="stylesheet">
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<header>
+			<nav>
 				<ul class = "menuList">
 					<li><a id = "about" class = "btn" href = "#aboutSect">ABOUT</a></li>
 					<li><a id = "news" class = "btn" href = "#newsSect">NEWS</a></li>
@@ -40,18 +35,8 @@
 					<li><a id = "contact" class = "btn" href = "#contactSect">CONTACT</a></li>
 				</ul>
 		</nav>
-
-		<!-- Hamburger Icon shows up for mobile -->
-		<!-- <div id ="mobileBurger" class = "menuIcon">
-			<span = "burgerIcon"></span>
-		</div> -->
 </header>
 
-<!--
-	1)Num of divs correlate to the different sections included in mock up. 
-	Including nav, there are n sections. Hence, we make the remaining n-1 with divs.
-	2)Alternating subsection correlate to text section while main sections are the images.
--->
 <div id = "homeSect" class = "sect sectA"> 
 	<img src="images/Logo3.png" class="CCCLogo" alt="CCC Logo" align="midde"/>
 	<h1 id="CCCmast">Cornell Consulting Club</h1>
@@ -169,35 +154,36 @@
 		<button type="button" class="btn btn-success btn-lg"><a href = "https://ccc13.typeform.com/to/R2WVk2" target = "_blank">Apply</a></button>
 	</div>
 </div>
-
-<div id = "contactSect" class = "subSection" style = "background: rgb(142, 22, 22)"> 
-	<h1 class = "text-center">CONTACT</h1>
-	<div>
-		<div>
-			List Serve<br>
-			<form>
-				<input type="text" name="email">
-	  		<input type="submit" value="Subscribe">
-			</form>
+		<div id = "contactSect" style = "background: rgb(142, 22, 22)">
+			<h1 class = "text-center">CONTACT</h1>
+			<div class="row">
+				<div class="contactInfo col-md-9 col-xs-12">
+					<form class="listServe-form">
+						<div class="form-group">
+							<label for="exampleInputEmail">List Serve</label>
+							<input type="email" class="form-control emailBox" id="exampleInputEmail" placeholder="@cornell.edu">
+						</div>
+						<button type="submit" class="btn btn-primary">Subscribe</button>
+					</form>
+				</div>
+				<div class="contactInfo col-md-3 col-xs-12">
+					<a class="btn btn-lg btn-social-icon btn-facebook" href="https://www.facebook.com/cornellconsultingclub/" target = "_blank">
+						<span class="fa fa-facebook"></span>
+					</a> Facebook <br>
+					<a class="btn btn-lg btn-social-icon btn-linkedin" href="https://www.linkedin.com/company/2709447?trk=prof-0-ovw-curr_pos" target = "_blank">
+						<span class="fa fa-linkedin"></span>
+					</a> Linkedin <br>
+					<input id="contactEmail" type="hidden" name="email" value="consultingclub@cornell.edu">
+					<a class="btn btn-lg btn-social-icon btn-envelope"  target = "_blank">
+						<span class="fa fa-envelope" onclick="copyToClipboard('contactEmail')"></span>
+					</a> Email
+					<div>
+					</div>
+				</div>
+			</div>
 		</div>
-		<div>
-			<a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/cornellconsultingclub/" target = "_blank">
-		    <span class="fa fa-facebook"></span>
-		  </a> Facebook <br>
-			<a class="btn btn-social-icon btn-linkedin" href="https://www.facebook.com/cornellconsultingclub/" target = "_blank">
-		    <span class="fa fa-linkedin"></span>
-		  </a> Linkedin <br>
-			<a class="btn btn-social-icon btn-envelope" href="https://www.facebook.com/cornellconsultingclub/" target = "_blank">
-		    <span class="fa fa-envelope"></span>
-		  </a> Email 
-		</div>
-	</div>
-</div>
-
-
-<script src = "js/jquery-3.1.0.min.js" type = "text/javascript"></script>
-<script src = "js/scripts.js" type = "text/javascript"></script>
-<script src="js/bootstrap.min.js"></script>
-
-</body>
+		<script src = "js/jquery-3.1.0.min.js" type = "text/javascript"></script>
+		<script src = "js/scripts.js" type = "text/javascript"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</body>
 </html>

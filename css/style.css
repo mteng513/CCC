@@ -143,9 +143,18 @@ div img
 	background-color: rgb(202,210,197);
 }
 
+.contactInfo {
+	padding-top: 5%;
+	padding-right: 10%;
+}
+
+.emailBox {
+	max-width: 300px;
+}
+
 #contactSect {
-	height: 40%;
 	color: white;
+	padding: 0% 20% 10% 20%;
 }
 /*CT: https://upload.wikimedia.org/wikipedia/commons/4/40/Cornell_University_arts_quad.JPG*/
 .sectA {
@@ -194,9 +203,20 @@ width: 100%;
 
 .btn-envelope{color:#8E1616;background-color:#ffffff;border-color:rgba(0,0,0,0.2)}.btn-envelope:focus,.btn-envelope.focus{color:#fff;background-color:#2d4373;border-color:rgba(0,0,0,0.2)}
 .btn-envelope:hover{color:#8E1616;background-color:#bbbbbb;border-color:rgba(0,0,0,0.2)}
-.btn-envelope:active,.btn-envelope.active,.open>.dropdown-toggle.btn-envelope{color:#fff;background-color:#2d4373;border-color:rgba(0,0,0,0.2)}.btn-envelope:active:hover,.btn-envelope.active:hover,.open>.dropdown-toggle.btn-envelope:hover,.btn-envelope:active:focus,.btn-envelope.active:focus,.open>.dropdown-toggle.btn-envelope:focus,.btn-envelope:active.focus,.btn-envelope.active.focus,.open>.dropdown-toggle.btn-envelope.focus{color:#fff;background-color:#23345a;border-color:rgba(0,0,0,0.2)}
+.btn-envelope:active,.btn-envelope.active,.open>.dropdown-toggle.btn-envelope{color:#8E1616;background-color:#777777;border-color:rgba(0,0,0,0.2)}.btn-envelope:active:hover,.btn-envelope.active:hover,.open>.dropdown-toggle.btn-envelope:hover,.btn-envelope:active:focus,.btn-envelope.active:focus,.open>.dropdown-toggle.btn-envelope:focus,.btn-envelope:active.focus,.btn-envelope.active.focus,.open>.dropdown-toggle.btn-envelope.focus{color:#8E1616;background-color:#777777;border-color:rgba(0,0,0,0.2)}
 .btn-envelope:active,.btn-envelope.active,.open>.dropdown-toggle.btn-envelope{background-image:none}
 .btn-envelope.disabled,.btn-envelope[disabled],fieldset[disabled] .btn-envelope,.btn-envelope.disabled:hover,.btn-envelope[disabled]:hover,fieldset[disabled] .btn-envelope:hover,.btn-envelope.disabled:focus,.btn-envelope[disabled]:focus,fieldset[disabled] .btn-envelope:focus,.btn-envelope.disabled.focus,.btn-envelope[disabled].focus,fieldset[disabled] .btn-envelope.focus,.btn-envelope.disabled:active,.btn-envelope[disabled]:active,fieldset[disabled] .btn-envelope:active,.btn-envelope.disabled.active,.btn-envelope[disabled].active,fieldset[disabled] .btn-envelope.active{background-color:#3b5998;border-color:rgba(0,0,0,0.2)}
+
+#SubscribeButton {
+	color: rgb(142, 22, 22);
+	background-color: white;
+	border: 1px solid rgb(202,210,197);
+	border-radius: 1px;
+}
+
+#SubscribeButton:hover {
+	background-color: #C8C8C8;
+}
 
 @media screen and (max-width: 768px){
 	
