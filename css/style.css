@@ -26,7 +26,11 @@ html, body{
 }
 
 h1 {
-	margin: 50px 5% 30px 5%;
+	margin: 50px 10% 30px 10%;
+}
+
+h1 + div{
+	padding: 0 40px 10px 40px;
 }
 
 h2, h3, h4, h5, h6, p {
