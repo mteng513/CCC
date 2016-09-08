@@ -142,7 +142,6 @@ div img
 }
 
 
-
 .subSection {
 	/*height: 70%;*/
 	min-height: 60%;
@@ -187,16 +186,38 @@ div img
     bottom: auto;
 }
 
-/* Team Section Columns */
-.column-left{
-	float: left; width: 33%; text-align: left;
+#applySect { 
+	padding-bottom: 40px;
+
 }
-.column-right{
-	float: right; width: 33%; text-align: left;
+
+#teamSect {
+	text-align: center;
 }
-.column-center{
-	display: inline-block; width: 33%; text-align: left;
+
+.text-left {
+	text-align: left;
+	max-width: 100%;
+	padding: 20px;
 }
+
+.TeamButton {
+	/* -webkit-border-radius: 15px; */
+    background-color: rgb(142, 22, 22); /* Red */
+    color: white;
+    border: none;
+    padding: 20px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.TeamButton:hover {
+    background-color: #7a1919; /* Red */
+    color: #eadada;
+}
+
 
 /*Make Carousel Full div*/
 .carousel-inner>.item>img, .carousel-inner>.item>a>img {
@@ -205,6 +226,7 @@ height: auto;
 max-width: 100%;
 line-height: 1;
 width: 100%;
+
 }
 
 .btn-envelope{color:#8E1616;background-color:#ffffff;border-color:rgba(0,0,0,0.2)}.btn-envelope:focus,.btn-envelope.focus{color:#fff;background-color:#2d4373;border-color:rgba(0,0,0,0.2)}
