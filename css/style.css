@@ -6,6 +6,15 @@ div{
 	overflow-y: scroll;
 }
 
+div > a{
+	color: inherit;
+}
+
+div > a:hover{
+	text-decoration: none;
+	color: white;
+}
+
 ::-webkit-scrollbar { 
     display: none; 
 }
@@ -103,6 +112,41 @@ div img
 	margin-right: auto;
 }
 
+.br-left{
+	display: block;
+	line-height: 200px;
+}
+
+.btn-square{
+	color: white;
+    border: none;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.btn-square-sm{
+	color: white;
+    border: none;
+    padding: 6px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.btn-square-social{
+	color: white;
+    border: none;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
 .sect {
 	color: rgb(255,255,255);
 	min-height: 60%;
@@ -113,9 +157,6 @@ div img
 	background-attachment: fixed;
 	padding: 0px;
 }
-
-	.sect{
-	}
 
 #CCCmast {
 	font-size: 312%;
@@ -158,6 +199,7 @@ div img
 }
 
 #contactSect {
+	background: rgb(142, 22, 22);
 	color: white;
 	padding: 0% 20% 10% 20%;
 }
@@ -271,6 +313,11 @@ width: 100%;
 	.subSection{
 		height: 100%;
 		width: 100%;
+	}
+
+	.br-left{
+		display: block;
+		line-height: 0px;
 	}
 
 }
