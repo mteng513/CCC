@@ -360,10 +360,10 @@ div img
 	  float: none;
 	  display: inline;
 	}
-	
+
 	.carousel-inner>.item>img, .carousel-inner>.item>a>img {
 		display: block;
-		height: 350px;
+		height: 500px;
 		overflow: hidden;
 		max-width: 100%;
 		line-height: 1;
@@ -380,6 +380,15 @@ div img
 	#CCCmast{
 		font-size: 275%;
 
+	}
+
+	.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+		display: block;
+		height: 350px;
+		overflow: hidden;
+		max-width: 100%;
+		line-height: 1;
+		width: 100%;
 	}
 }
 
