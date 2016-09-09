@@ -79,33 +79,72 @@ hr{
 
 /*Nav Bar Menu*/
 nav {
-	background-color: rgba(142, 22, 22, .8);
+	/*background-color: rgba(142, 22, 22, .8);
 	display: inline-block;
 	height: 50px;
-	/*overflow: scroll;*/
+	overflow: scroll;
 	position: fixed;
 	text-align: center;
-	width: 100%;
+	width: 100%;*/
 	z-index: 99;
+	width: 100%;
+	display: inline-block;
+}
+.headerButton {
+	color:white;
+}
+/*.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}*/
+
+
+.navbar-collapse{
+	border-top: 0px;
 }
 
 
+.navbar-nav{
+	float: none;
+	text-align: center;
+}
+.navbar-nav li {
+	  float: none;
+	  display: inline-block;
+	}
+@media screen and (max-width: 768px){
+	.navbar-nav li {
+	  float: none;
+	  display: inline;
+	}
+}
+
+.navbar-toggle {
+    border: none;
+    border-radius: 0px;
+}
+/* KEEPS THE HAMBURGER ICON THE CORRECT COLOR */
+.navbar-inverse, .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: rgba(113, 17, 17, .8);
+}
+
 nav ul {
-	/*Remove any unnecessary padding*/
-	padding: 0px;
+	
+	list-style: none;
 
 }
 
 nav ul li{
-	display: inline-block;
+	display: inline;
 	list-style: none;
+
+
 }
 
 nav a {
 	text-decoration: none;
-	color: rgb(202,210,197);
-	margin-left: 50px;
-	line-height: 50px !important;
+	color: white;
+	margin-left: ;
+	line-height: 75% !important;
 	cursor: pointer;
 	font-family: Khula, sans-serif;
 
@@ -117,6 +156,7 @@ div img
 	margin-left: auto;
 	margin-right: auto;
 }
+
 
 .br-left{
 	display: block;
@@ -151,6 +191,13 @@ div img
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+}
+
+.table{
+	display: table;
+	margin: 0 auto;
+	text-align: center;
+
 }
 
 .sect {
@@ -294,24 +341,23 @@ width: 100%;
 	background-color: #C8C8C8;
 }
 
+.navbar{
+	background-color: rgba(142, 22, 22, .8);
+	position: fixed;
+	color: white;
+	border-radius: 0px;
+	border: 0px;
+
+}
+
+.container-fluid{
+	text-align: center;
+	padding-top: 0.8%;
+}
+
+
 @media screen and (max-width: 768px){
 	
-	nav{
-		display: none;
-	}
-
-	/*header nav{
-		float: none;
-		clear: left;
-		width: 100%;
-	}
-
-	header nav ul{
-		margin: 0px;
-		padding: 0px;
-		display: none;
-	}*/
-
 	#CallToAction{
 		font-size: 130%;
 	}
