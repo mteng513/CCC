@@ -108,6 +108,7 @@ nav {
 	text-align: center;
 }
 .navbar-nav li {
+	  margin: 0 10px;
 	  float: none;
 	  display: inline-block;
 	}
