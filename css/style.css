@@ -347,6 +347,27 @@ div img
 	padding-top: 0.8%;
 }
 
+@media screen and (min-aspect-ratio: 720/465) {
+	.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+		display: block;
+		height: 100vh;
+		overflow: hidden;
+		max-width: 100%;
+		line-height: 1;
+		width: auto;
+	}
+}
+
+@media screen and (max-aspect-ratio: 720/465) {
+	.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+		display: block;
+		height: auto;
+		overflow: hidden;
+		max-height: 100%;
+		line-height: 1;
+		width: 100vw;
+	}
+}
 
 @media screen and (max-width: 768px){
 	
@@ -368,16 +389,6 @@ div img
 	  display: inline;
 	}
 
-	.carousel-inner>.item>img, .carousel-inner>.item>a>img {
-		display: block;
-		height: 500px;
-		overflow: hidden;
-		max-width: 100%;
-		line-height: 1;
-		width: 100%;
-
-	}
-
 	.br-contact{
 		display: block;
 		line-height: 40px;
@@ -392,26 +403,6 @@ div img
 	#CCCmast{
 		font-size: 275%;
 
-	}
-
-	.carousel-inner>.item>img, .carousel-inner>.item>a>img {
-		display: block;
-		height: 350px;
-		overflow: hidden;
-		max-width: 100%;
-		line-height: 1;
-		width: 100%;
-	}
-}
-
-@media screen and (min-width: 769px){
-	.carousel-inner>.item>img, .carousel-inner>.item>a>img {
-		display: block;
-		height: 670px;
-		overflow: hidden;
-		max-width: 100%;
-		line-height: 1;
-		width: 100%;
 	}
 }
 
