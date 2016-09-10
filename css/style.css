@@ -20,6 +20,21 @@ div > a:hover{
 	color: white;
 }
 
+div span a{
+	font-size: 20px;
+	color: rgb(142,22,22);
+}
+
+div span a:visited, a:link{
+	color: rgb(142,22,22);
+	text-decoration: none;
+}
+
+div span a:hover{
+	text-decoration: none;
+	color: rgb(142,22,22);
+}
+
 ::-webkit-scrollbar { 
     display: none; 
 }
@@ -153,6 +168,27 @@ div img
 	margin-right: auto;
 }
 
+.animate{
+  position: relative;
+  /*color: rgb(142,22,22);*/
+}
+.animate:after {
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 0;
+  height: 10px;
+  background-color: rgb(142,22,22);
+  content: "";
+  transition: width 0.3s;
+}
+.animate:hover {
+  color: rgb(142,22,22);
+}
+.animate:hover:after {
+  width: 100%;
+}
 
 .br-left{
 	display: block;
@@ -161,12 +197,17 @@ div img
 
 .btn-square{
 	color: white;
+	background-color: rgb(32,90,120);
     border: none;
     padding: 10px 115px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+}
+
+.btn-square:hover{
+	background-color: rgb(142,22,22);
 }
 
 .btn-square-sm{
@@ -244,7 +285,8 @@ div img
 .subSection {
 	/*height: 70%;*/
 	min-height: 60%;
-	background-color: rgb(202,210,197);
+	background-color: #E0E0CE;
+	/*rgb(202,210,197)*/
 }
 
 .contactInfo {
