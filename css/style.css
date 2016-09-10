@@ -124,16 +124,12 @@ nav {
 }
 
 nav ul {
-	
 	list-style: none;
-
 }
 
 nav ul li{
 	display: inline;
 	list-style: none;
-
-
 }
 
 nav a {
@@ -143,7 +139,6 @@ nav a {
 	line-height: 75% !important;
 	cursor: pointer;
 	font-family: Khula, sans-serif;
-
 }
 
 div img
