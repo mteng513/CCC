@@ -301,6 +301,9 @@ div img
 	padding: 20px;
 }
 
+.form-control{
+	border-radius: none;
+}
 
 /*Make Carousel Full div*/
 .carousel-inner>.item>img, .carousel-inner>.item>a>img {
@@ -373,6 +376,11 @@ div img
 		line-height: 1;
 		width: 100%;
 
+	}
+
+	.br-contact{
+		display: block;
+		line-height: 40px;
 	}
 }
 
