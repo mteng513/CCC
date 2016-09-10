@@ -364,6 +364,10 @@ div img
 	margin-top: 9px;
 }
 
+.chronoform a {
+	display: none;
+}
+
 .navbar{
 	background-color: rgba(142, 22, 22, .8);
 	position: fixed;
