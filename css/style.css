@@ -168,17 +168,31 @@ div img
   position: relative;
   /*color: rgb(142,22,22);*/
 }
+
+.headerButton.animate:after {
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -9px;
+  width: 0;
+  height: 11px;
+  background-color: white;
+  content: "";
+  transition: width 0.3s;
+}
+
 .animate:after {
   display: block;
   position: absolute;
   left: 0;
   bottom: -10px;
   width: 0;
-  height: 10px;
+  height: 11px;
   background-color: rgb(142,22,22);
   content: "";
   transition: width 0.3s;
 }
+
 .animate:hover {
   color: rgb(142,22,22);
 }
@@ -193,7 +207,7 @@ div img
 
 .btn-square{
 	color: white;
-	background-color: rgb(32,90,120);
+	background-color: #337AB7;
     border: none;
     padding: 10px 115px;
     text-align: center;
@@ -203,7 +217,7 @@ div img
 }
 
 .btn-square:hover{
-	background-color: rgb(142,22,22);
+	background-color: #286090;
 }
 
 .btn-square-sm{
@@ -281,7 +295,7 @@ div img
 .subSection {
 	/*height: 70%;*/
 	min-height: 60%;
-	background-color: #E0E0CE;
+	background-color: #EFF2F1;
 	/*rgb(202,210,197)*/
 }
 
