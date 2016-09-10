@@ -39,6 +39,7 @@ div span a:hover{
     display: none; 
 }
 
+
 /*
 	1) Parent-Child:
 		Between sect/subSection and html/body, we originally 
@@ -359,15 +360,8 @@ div img
 .btn-envelope:active,.btn-envelope.active,.open>.dropdown-toggle.btn-envelope{background-image:none}
 .btn-envelope.disabled,.btn-envelope[disabled],fieldset[disabled] .btn-envelope,.btn-envelope.disabled:hover,.btn-envelope[disabled]:hover,fieldset[disabled] .btn-envelope:hover,.btn-envelope.disabled:focus,.btn-envelope[disabled]:focus,fieldset[disabled] .btn-envelope:focus,.btn-envelope.disabled.focus,.btn-envelope[disabled].focus,fieldset[disabled] .btn-envelope.focus,.btn-envelope.disabled:active,.btn-envelope[disabled]:active,fieldset[disabled] .btn-envelope:active,.btn-envelope.disabled.active,.btn-envelope[disabled].active,fieldset[disabled] .btn-envelope.active{background-color:#3b5998;border-color:rgba(0,0,0,0.2)}
 
-#SubscribeButton {
-	color: rgb(142, 22, 22);
-	background-color: white;
-	border: 1px solid rgb(202,210,197);
-	border-radius: 1px;
-}
-
-#SubscribeButton:hover {
-	background-color: #C8C8C8;
+#subscribeButton {
+	margin-top: 9px;
 }
 
 .navbar{
