@@ -334,9 +334,14 @@ div img
 }
 
 .carousel-caption {
+	color: black;
     top: 0;
     bottom: auto;
+<<<<<<< Updated upstream
     color: black;
+=======
+    background-color: 
+>>>>>>> Stashed changes
 }
 
 #applySect { 
