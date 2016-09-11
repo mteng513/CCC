@@ -336,6 +336,7 @@ div img
 .carousel-caption {
     top: 0;
     bottom: auto;
+    z-index: 99;
 }
 
 #applySect { 
