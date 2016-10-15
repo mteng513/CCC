@@ -315,10 +315,8 @@ div img
 }
 /*CT: https://upload.wikimedia.org/wikipedia/commons/4/40/Cornell_University_arts_quad.JPG*/
 .sectA {
-	background: url("../images/artsquad2.jpg") no-repeat center center fixed;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
+	background: url("../images/artsquad2.jpg") no-repeat;
+	background-position: center top;
 }
 
 /*CT: http://kabegami.org/wp-content/uploads/2016/07/0mmRo9a1.jpg*/
