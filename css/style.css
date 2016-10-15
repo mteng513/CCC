@@ -35,14 +35,14 @@ div span a:hover{
 	color: rgb(142,22,22);
 }
 
-::-webkit-scrollbar { 
-    display: none; 
+::-webkit-scrollbar {
+    display: none;
 }
 
 
 /*
 	1) Parent-Child:
-		Between sect/subSection and html/body, we originally 
+		Between sect/subSection and html/body, we originally
 		declared .sect and .subSection to have height of 100%,
 		but the paret (html/body) did not have a height so nothing
 		showed up on the html page. Have to set up parent if using percentage
@@ -70,7 +70,7 @@ h2, h3, h4, h5, h6, p {
 }
 
 hr{
-	margin: 0 7.5% 0 7.5%;	
+	margin: 0 7.5% 0 7.5%;
 	width: 85%;
 }
 
@@ -315,7 +315,10 @@ div img
 }
 /*CT: https://upload.wikimedia.org/wikipedia/commons/4/40/Cornell_University_arts_quad.JPG*/
 .sectA {
-	background: url("../images/cornell2.jpg") no-repeat center center fixed;
+	background: url("../images/arts_quad.jpg") no-repeat center center fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 
 /*CT: http://kabegami.org/wp-content/uploads/2016/07/0mmRo9a1.jpg*/
@@ -340,11 +343,11 @@ div img
 <<<<<<< Updated upstream
     color: black;
 =======
-    background-color: 
+    background-color:
 >>>>>>> Stashed changes
 }
 
-#applySect { 
+#applySect {
 	overflow: auto;
 	padding-bottom: 40px;
 }
@@ -402,6 +405,10 @@ div img
 	padding-top: 0.8%;
 }
 
+.team-header-mobile{
+	display: none
+}
+
 @media screen and (min-aspect-ratio: 720/465) {
 	.carousel-inner>.item>img, .carousel-inner>.item>a>img {
 		display: block;
@@ -425,7 +432,7 @@ div img
 }
 
 @media screen and (max-width: 768px){
-	
+
 	#CallToAction{
 		font-size: 130%;
 	}
@@ -457,6 +464,16 @@ div img
 
 	#CCCmast{
 		font-size: 275%;
+	}
 
+	.team-mobile{
+		display: none;
+	}
+	.team-header{
+		display: none;
+	}
+	.team-header-mobile{
+		display: block;
+		padding: 1em;
 	}
 }
